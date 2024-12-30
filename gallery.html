@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+        rel="stylesheet" />
+
+    <title>Flavorscape</title>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="container navigation pt-3">
+        <div class="row">
+            <div class="col-6 d-flex justify-content-start align-items-center">
+                <i class="fa fa-spinner fa-spin fa-3x fa-fw text-warning pb-3"></i>
+                <h1 class="d-inline pl-2 text-white">Flavorscape</h1>
+            </div>
+            <div class="col-6 pt-2">
+                <div class="row text-center p-0 d-flex justify-content-end align-items-center">
+                    <div class="col-3">
+                        <a href="Index.html" class="text-white navigation-link">About</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="dishes.html" class="text-white navigation-link">Dishes</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="gallery.html" class="text-white navigation-link">Gallery</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="contact.html" target="_blank" class="text-white navigation-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="container">
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="homepage.jpg" alt="restaurant" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>"Good food is the foundation of genuine happiness."</h3>
+            
+                    </div>
+            
+                </div>
+                <div class="carousel-item">
+                    <img src="image 1.webp" alt="restaurant" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>"Savor the flavor, experience the joy."</h3>
+                    </div>
+                </div>
+            
+                <div class="carousel-item">
+                    <img src="image 2.avif" alt="restaurant" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>"Where every meal is a moment to remember."</h3>
+            
+                    </div>
+                </div>
+            
+                <div class="carousel-item">
+                    <img src="homepage_noodles.jpg" alt="restaurant" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>"Crafting flavors that bring people together."</h3>
+            
+                    </div>
+                </div>
+            
+            </div>
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-target="#carouselExample" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExample" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-target="#carouselExample" data-slide-to="0" class="active"></button>
+            <button type="button" data-target="#carouselExample" data-slide-to="1"></button>
+            <button type="button" data-target="#carouselExample" data-slide-to="2"></button>
+            <button type="button" data-target="#carouselExample" data-slide-to="3"></button>
+        </div>
+    </div>
+
+    <!-- Jumbotron with Description -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 style="color: rgb(35, 152, 115);">Flavorscape</h1>
+            <p>"Feast your eyes on a gallery of culinary artistry! Here, every dish tells a story, every flavor is
+                captured in stunning detail.
+                From vibrant colors to mouthwatering textures, this is where food becomes art. Let your cravings guide
+                you as you explore a visual journey of indulgence and inspiration!"</p>
+        </div>
+    </div>
+
+    <!-- Fruity Section -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h3 style="color: rgb(7, 4, 81);">Fruity</h3>
+            <img src="gallery_fruitcake.jpg" alt="Fruitcake" class="img-fluid" width="350px" height="230px">
+            <img src="gallery_fruitsmoothie.jpg" alt="Smoothie" class="img-fluid" width="330px" height="230px">
+            <img src="gallery_strawberries&cream.jpg" alt="Strawberries & Cream" class="img-fluid" width="350px"
+                height="230px">
+        </div>
+    </div>
+
+    <!-- Noodles & Soups Section -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h3 style="color: rgb(12, 16, 88);">Noodles & Soups</h3>
+            <img src="gallery_ramen.jpg" alt="Ramen" class="img-fluid" width="350px" height="230px">
+            <img src="gallery_noodles.jpg" alt="Noodles" class="img-fluid" width="350px" height="230px">
+            <img src="gallery_soup.jpg" alt="Soup" class="img-fluid" width="350px" height="230px">
+        </div>
+    </div>
+
+    <!-- Non-Veg Section -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h3 style="color: rgb(12, 16, 88);">Non-Veg</h3>
+            <img src="gallery_fish.jpg" alt="Fish" class="img-fluid" width="350px" height="230px">
+            <img src="gallery_burger&fries.jpg" alt="Burger & Fries" class="img-fluid" width="350px" height="230px">
+            <img src="gallery_chicken.jpg" alt="Chicken" class="img-fluid" width="350px" height="230px">
+        </div>
+    </div>
+
+    <!-- Indian Section -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h3 style="color: rgb(12, 16, 88);">Indian</h3>
+            <img src="galleryimage_biriyani.jpg" alt="Biriyani" class="img-fluid" width="350px" height="230px">
+            <img src="gallery_roti.jpg" alt="Roti" class="img-fluid" width="390px" height="230px">
+            <img src="gallery_samosa.jpg" alt="Samosa" class="img-fluid" width="350px" height="230px">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer text-center">
+        <p>@All rights reserved by Tejashree Kadapa</p>
+    </div>
+
+    <!-- Bootstrap JS and dependencies (jQuery and Popper.js) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
